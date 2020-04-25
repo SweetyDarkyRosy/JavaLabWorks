@@ -25,7 +25,6 @@ public class Circle implements Ellipse
 
 	private float x;
 	private float y;
-	private int rot;
 	private float radius;
 
 	public Circle(float x, float y, float radius)
@@ -53,7 +52,7 @@ public class Circle implements Ellipse
 
 	public int getRotation()
 	{
-		return rot;
+		return 0;
 	}
 
 	public float getLength()
