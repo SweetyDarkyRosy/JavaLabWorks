@@ -17,7 +17,7 @@ public class MyAppFour
 			conn = DriverManager.getConnection(
 					"jdbc:mysql://localhost:3306/javaDataBase?autoReconnect=true&useSSL=false",
 					"root",
-					"DarkRose_179");
+					"");
 		}
 		catch (SQLException se)
 		{
