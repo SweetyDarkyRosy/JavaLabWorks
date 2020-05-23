@@ -50,11 +50,6 @@ public class Circle implements Ellipse
 		return (float)(Math.PI * Math.pow(radius, 2));
 	}
 
-	public int getRotation()
-	{
-		return 0;
-	}
-
 	public float getLength()
 	{
 		return (float)(2 * radius * Math.PI);

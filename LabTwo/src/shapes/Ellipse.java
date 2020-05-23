@@ -27,4 +27,6 @@ public interface Ellipse extends Shape
      * @return длина эллипса
      */
     float getLength();
+
+    default int getRotation() { return 0; }
 }
